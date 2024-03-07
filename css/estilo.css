@@ -1,0 +1,56 @@
+#contenedor
+{
+    background-color: aqua;
+    width: 900px;
+    height: 2000px;
+    margin: auto;
+}
+#caja1
+{
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+}
+#caja2
+{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    display: inline-block;
+}
+
+#caja3
+{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 250px;
+    display: inline-block;
+    display: flexbox;
+}
+
+#caja4
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    left: 350px;
+}
+#caja1-1
+{
+   width: 100px; 
+   height: 100px;
+   background-color: wheat;
+   position: relative;
+   left: 20px;
+   top: 20px;
+   transform: rotate(30deg); /*para rotar el div*/
+}
